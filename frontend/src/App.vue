@@ -153,6 +153,7 @@
             <v-btn
                 color="orange"
                 text
+                @click="nextCarBody"
             >
               下一个收藏
             </v-btn>
@@ -250,6 +251,9 @@ export default {
         value: 11 * 1e15,
       })
       console.log('carBodies.methods.fetch', res);
+    },
+    nextCarBody: () => {
+
     }
   }
 };
